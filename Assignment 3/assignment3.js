@@ -1,3 +1,4 @@
+//Updated
 //1. Even Number Finder (While Loop)
 console.log("Challenge 1: Even Number Finder");
 let num = 1;
@@ -57,3 +58,4 @@ switch (monthNum) {
   default: monthName = "Invalid input.";
 }
 console.log(monthName);
+
