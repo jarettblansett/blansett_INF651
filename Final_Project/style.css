@@ -1,0 +1,123 @@
+/* === INDEX PAGE (Home) Styling === */
+body.home {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f4f4f4, #e0f7fa); /* gradient background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #0077cc;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #ccc;
+}
+
+#welcomeMessage {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.cta {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.cta:hover {
+  background: #005fa3;
+}
+
+nav {
+  margin-top: 20px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* === OTHER PAGES (Playlist, Contact, etc.) Styling === */
+body.page {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background: #fff; /* plain white background */
+  color: #333;
+}
+
+body.page textarea {
+  font-family: Arial, sans-serif;
+  line-height: 1.0;
+}
+
+
+
+h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  background: #005fa3;
+}
+
+/* Light panels for main sections */
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid #eee; /* thinner, lighter border */
+  border-radius: 4px;
+}
+
+/* Playlist items */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* only bottom divider */
+}
+li:hover {
+  background: #f9f9f9; /* subtle hover effect */
+}

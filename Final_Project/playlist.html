@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <h2>My Playlist</h2>
+
+  <!-- Song input form -->
+  <section>
+    <form id="songForm">
+      <label for="title">Song Title:</label>
+      <input type="text" id="title" placeholder="Song Title" required>
+
+      <label for="artist">Artist:</label>
+      <input type="text" id="artist" placeholder="Artist" required>
+
+      <label for="url">Song URL (optional):</label>
+      <input type="text" id="url" placeholder="Song URL (optional)">
+
+      <button type="submit">Add Song</button>
+    </form>
+  </section>
+
+  <!-- Favorites + search -->
+  <section>
+    <button id="showFavorites">Show Favorites</button>
+    <input type="text" id="searchBar" placeholder="Search songs...">
+  </section>
+
+  <!-- Playlist display -->
+  <section>
+    <ul id="playlist">
+      <li>No songs yet!</li>
+    </ul>
+  </section>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
